@@ -48,7 +48,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Tailwind CSS
-- JAvascript
+- Javascript
 
 ### What I learned
 - Regrex Expression matching
@@ -64,7 +64,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Benup211](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Benup211](https://www.frontendmentor.io/profile/Benup211)
 
 ## Acknowledgments
 

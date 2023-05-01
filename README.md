@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Benup211/ping-coming-soon-page)
-- Live Site URL: [Add live site URL here](https://benup211.github.io/ping-coming-soon-page)
+- Solution URL: [Goto solution URL](https://github.com/Benup211/ping-coming-soon-page)
+- Live Site URL: [Goto live site URL](https://benup211.github.io/ping-coming-soon-page)
 
 ## My process
 

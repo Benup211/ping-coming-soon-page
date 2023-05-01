@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./myscript.js"></script>
+  <title>Ping coming soon page</title>
+</head>
+<body>
+
+  <main class="pingpage">
+    <div class="ping">
+      <div class="ptime ">
+        <img class="object-cover h-4 m-4" src="./images/logo.svg" alt="PING">
+        <h2 class="font-light text-mentor-gray">We are launching <span class="font-bold text-mentor-very-dark-blue">soon!</span></h2>
+        <p class="text-xs font-thin m-2">Subscribe and get notified</p>
+      </div>
+      <div class="notify">
+        <div class="ms:w-full w-2/3 sm:mr-3 ms:mb-2">
+          <input class="border-2 rounded-3xl w-full p-2" type="email" name="pemail" id="pingemail" placeholder="Your email address">
+          <p id="validity" class="text-[11px] text-mentor-light-red h-3 ml-3"></p>
+        </div>
+        <button class="pbutton" onclick="checkemail()">Notify Me</button>
+      </div>
+      <div class="pimg mb-10">
+        <img class=" w-full object-cover"src="./images/illustration-dashboard.png" alt="ping image">
+      </div>
+      <div class="psocial w-full mb-3">
+        <div class="icons flex justify-center items-center">
+          <a href="#" class="fa fa-facebook mx-3 rounded-full hover:bg-mentor-blue px-3 py-2"></a>
+          <a href="#" class="fa fa-twitter mx-3 rounded-full hover:bg-mentor-blue p-2"></a>
+          <a href="#" class="fa fa-instagram mx-3 rounded-full hover:bg-mentor-blue p-2"></a>
+        </div>
+      </div>
+      <div id="footer">
+        <p class="text-center text-mentor-gray text-[11px]">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="text-[11px] text-center">
+      Challenge by <a class="text-mentor-anchor" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="text-mentor-anchor" href="https://www.linkedin.com/in/benup-ghimire-9b9b19233/" target="_blank">Benup Ghimire</a>.
+    </p>
+  </footer>
+</body>
+</html>

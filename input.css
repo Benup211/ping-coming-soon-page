@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pingpage{
+    @apply w-screen min-h-screen flex justify-center items-center flex-col font-Libre-Franklin mt-5 ms:mt-0;
+}
+.ping{
+    @apply w-1/2 ms:w-11/12;
+}
+.ptime{
+    @apply flex justify-center items-center flex-col text-mentor-very-dark-blue text-xl;
+}
+.notify{
+    @apply  flex justify-around items-start ms:flex-col ms:justify-center ms:items-center flex-row my-5;
+}
+.pbutton{
+    @apply ms:w-full w-1/3 rounded-3xl bg-mentor-blue p-2 text-white font-semibold;
+}
+
